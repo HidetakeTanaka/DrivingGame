@@ -8,7 +8,6 @@ public class BrakeSoundPlayer : MonoBehaviour
     public AudioClip brakeScreechClip;
     public float speedThreshold = 1.5f; // Equals to about 5.4 km/h
 
-    private AudioSource audioSource;
     private bool isPlaying = false;
 
     void Start()
