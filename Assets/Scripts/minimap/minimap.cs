@@ -60,13 +60,15 @@ public class MinimapIcon : MonoBehaviour
     void Start()
     {
         // Register this icon with the MinimapManager when it is initialized
-        FindObjectOfType<MinimapManager>().RegisterIcon(this);
+        Object.FindFirstObjectByType<MinimapManager>()?.RegisterIcon(this);
+
     }
 
     void OnDestroy()
     {
         // Unregister this icon from the MinimapManager when it is destroyed to avoid errors
-        FindObjectOfType<MinimapManager>().UnregisterIcon(this);
+        Object.FindFirstObjectByType<MinimapManager>()?.UnregisterIcon(this);
+
     }
 }
 
