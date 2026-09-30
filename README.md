@@ -58,6 +58,8 @@ Dynamic Engine Sound
 
 The system was designed so that its parameters can be configured directly from the Unity Inspector.
 
+**Sound Demo** : Watch the gameplay video on YouTube to hear the dynamic engine and driving sounds in action: https://youtu.be/R-b1arRIxhk?si=f2qQbB_v57Rv4PRG
+
 ### Brake Screech Sound
 
 I also implemented `BrakeSoundPlayer.cs`.
